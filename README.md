@@ -15,6 +15,14 @@ pyrogram based telegram bot script to download the contents in Instagram like po
 ➪ `INSTA_USERNAME`<br>
 ➪ `INSTA_PASSWORD`<br>
 
+### requirements
+➪ pyrogram <br>
+➪ pyromod <br>
+➪ TgCrypto <br>
+➪ SQLAlchemy <br>
+➪ psycopg2 <br>
+➪ instaloader
+
 ### servers for deploy
 
 [![Deploy On Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)](https://heroku.com/deploy?template=https://github.com/riz4d/InstaDown)
