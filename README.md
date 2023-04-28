@@ -10,11 +10,7 @@ pyrogram based telegram bot script to download the contents in Instagram like po
 ### variables used
 ➪ `API_ID`<br>
 ➪ `API_HASH`<br>
-➪ `DATABASE_URL`<br>
 ➪ `BOT_TOKEN`<br>
-➪ `INSTA_USERNAME`<br>
-➪ `INSTA_PASSWORD`<br>
-
 ### requirements
 ➪ pyrogram <br>
 ➪ pyromod <br>
