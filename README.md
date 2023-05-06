@@ -1,29 +1,50 @@
 # InstaDown
-pyrogram based telegram bot script to download the contents in Instagram like posts, reels, profile
+pyrogram based telegram bot to download the contents in Instagram like posts, reels
 
-## Demo
-[Click Here](https://telegram.me/instad0wn_bot)
 
 ### what you mean by InstaDown ?
  ➪ InstaDown is a telegram bot to download pictures (or videos) along with their captions and other metadata from Instagram.
 
-### variables used
-➪ `API_ID`<br>
-➪ `API_HASH`<br>
-➪ `BOT_TOKEN`<br>
-### requirements
-➪ pyrogram <br>
-➪ pyromod <br>
-➪ TgCrypto <br>
-➪ SQLAlchemy <br>
-➪ psycopg2 <br>
-➪ instaloader
 
 ### servers for deploy
 
 [![Deploy On Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)](https://heroku.com/deploy?template=https://github.com/riz4d/InstaDown)
 
 [![Deploy on Railway](https://img.shields.io/badge/railway-%23430098.svg?style=for-the-badge&logo=railway&logoColor=white)](https://railway.app/new/template?template=https://github.com/riz4d/InstaDown)
+
+### Deploy VPS
+
+#### Configuration:
+
+```
+put the API_ID, API_HASH, BOT_TOKEN,OWNER_ID,OWNER_USERNAME at Config.py
+
+```
+
+
+##### First step:
+
+```sh
+git clone https://github.com/riz4d/InstaDown
+```
+
+##### Second step:
+
+```sh
+cd InstaDown 
+```
+
+##### Third step:
+
+```sh
+pip install -r requirements.txt
+```
+
+##### Fourth step:
+
+```sh
+python3 main.py
+```
 
 ## Issues 
 
