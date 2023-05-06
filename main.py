@@ -30,7 +30,7 @@ from config import bot_token,api_hash,api_id,owner_id,owner_username
 # queries Are Drop At @riz4d on Telegram
 
 loader = Instaloader(download_videos=True, download_geotags=False, download_comments=False, compress_json=False)
-instadown = Client("InstaDown",api_id=api_id,api_hash=api_hash,bot_token=bot_token)
+instadown = Client("InstaDown",api_id=int(api_id),api_hash=api_hash,bot_token=bot_token)
 
 @instadown.on_message(filters.command('start'))
 async def start_msg(client,message):
