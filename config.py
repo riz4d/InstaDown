@@ -1,0 +1,5 @@
+bot_token=""
+api_hash=""
+api_id=""
+owner_id=""
+owner_username=""
