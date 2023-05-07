@@ -60,7 +60,12 @@ async def start_msg(client,message):
         except Exception as e:
           print(e)
           await message.reply(f"__Send the username and password along with the command \n\n**syntax : /login username password**__")
-    
+        
+@instadown.on_message(filters.command('help'))
+async def start_msg(client,message):
+    user_id=str(message.from_user.id)
+    name=message.from_user.first_name
+    await message.reply(f"__ It’s simple use me just send the instagram post / reels link to me i will download and send it for you !__")
 
 @instadown.on_message(filters.regex(r"(?i)^(https?\:\/\/)?(www\.instagram\.com)\/reel\/.+$"))
 async def ig_reel_dl(client,message):
