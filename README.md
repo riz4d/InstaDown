@@ -3,7 +3,7 @@ pyrogram based telegram bot to download the contents in Instagram like posts, re
 
 
 ### what you mean by InstaDown ?
- ➪ InstaDown is a telegram bot to download pictures (or videos) along with their captions and other metadata from Instagram.
+ ➪ InstaDown is a telegram bot it performs the action such as download instagram media's such as reels,posts (stories option coming soon)
 
 
 ### servers for deploy
@@ -12,7 +12,7 @@ pyrogram based telegram bot to download the contents in Instagram like posts, re
 
 [![Deploy on Railway](https://img.shields.io/badge/railway-%23430098.svg?style=for-the-badge&logo=railway&logoColor=white)](https://railway.app/new/template?template=https://github.com/riz4d/InstaDown)
 
-### Deploy VPS
+### Deploy VPS (Local Machine)
 
 #### Configuration:
 
